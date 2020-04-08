@@ -18,6 +18,6 @@ def output_array(array)
   puts array
 end
 
-def return_string_array
-
+def return_string_array(array)
+  puts array.at_string
 end
