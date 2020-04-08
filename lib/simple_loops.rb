@@ -19,5 +19,7 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  puts array.strings
+  for i in array do
+    puts i
+  end
 end
